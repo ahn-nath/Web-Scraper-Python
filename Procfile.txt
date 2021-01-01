@@ -1,0 +1,2 @@
+web: gunicorn webscrapper:webscrapper
+release: python manage.py db upgrade
