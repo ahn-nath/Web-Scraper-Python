@@ -5,7 +5,7 @@ import requests
 #get webpage content to text
 source = requests.get('https://www.washingtonpost.com/technology/2020/09/25/privacy-check-blacklight/').text
 
-soup = BeautifulSoup(source, 'lxml')
+soup = BeautifulSoup(source, 'html5lib')
 
 #Flask configuration
 app = Flask(__name__)
@@ -20,8 +20,6 @@ def index():
     site_name = soup.find("meta",  property="og:site_name")['content']
     updated_date = soup.find("meta",  property="article:published_time")['content']
     description = soup.find("meta",  property="og:description")['content']
-    #save values in dictionary
-    hi = [1,2]
 
     #send variables to index.hmtl
     return render_template('index.html',**locals())
