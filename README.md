@@ -1,6 +1,6 @@
 # Python Web Scraper
 
- It is a simple web scraper that will return the content of a news article when given a specific URL. For demo purposes is using one specific news website. Given a specific article URL from the website of your choice, it can return the title and content of the article to the user.
+ It is a simple web scraper that will return the content of a news article when given a specific URL. For demo purposes, it is using one specific news website. Given a specific article URL from the website of your choice, it can return the title and content of the article to the user.
 
 
 ### Tech
