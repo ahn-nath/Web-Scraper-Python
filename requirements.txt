@@ -1,4 +1,4 @@
-﻿astroid==2.4.2
+astroid==2.4.2
 backcall==0.2.0
 beautifulsoup4==4.9.3
 browser==0.0.1
@@ -12,7 +12,7 @@ cssselect==1.0.3
 cycler==0.10.0
 decorator==4.4.2
 EasyProcess==0.3
-Flask==1.1.2
+Flask==2.2.5
 gunicorn==20.0.4
 idna==2.10
 ipykernel==5.4.2
